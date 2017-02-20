@@ -1,7 +1,12 @@
 *{
 	box-sizing: border-box;
 }
-
+ .container-body {
+	 	width: 1000px;
+ }
+body {
+		align-content: center;
+}
 * {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
@@ -30,15 +35,20 @@ Logo Header
 .top-header {
   font-size: 0px;
   display: inline-block;
-  max-width: 100%;
+  width: 100%;
+	background-color: #3A362B;
+	margin: 0px
 }
 
 .logo-image {
   display: inline-block;
   max-width: 22%;
-  margin: 0;
+	max-height:
   padding: 0;
-  font-size: 0;
+}
+
+.Logo img {
+	max-height: 148px;
 }
 
 .label-image {
@@ -52,7 +62,19 @@ Logo Header
 /*******************
 Navigation
 *******************/
+.Nav-black-div {
+  width: 100%;
+	background-color: #2C2B2B;
+	margin: 0px;
+}
+.Nav-black-div li {
+  display: inline-block;
+  color: #fff;
+	font-size: 14px;
+  padding: 10px;
+  margin: 15px;
 
+}
 .Nav-div {
   background-color: #ddd;
   width: 100%;
@@ -76,7 +98,7 @@ Main-body
 }
 
 .column-container-left p {
-  font-size: 1.5em;
+  font-size: 12px;
 }
 
 .column-container-left {
@@ -156,7 +178,7 @@ Static Box
 }
 
 .fixed-box {
-    width: 25%;
+    width: 20%;
     background-color: #3a539b;
     color: #fff;
     position: fixed;
@@ -170,7 +192,7 @@ Static Box
 }
 
 .fixed-box input {
-  width: 75%;
+  width: 80%;
   height: 25px;
 }
 
@@ -187,7 +209,10 @@ Footer
   color: #db4b38;
 }
 
-.footer li {
+.footer div {
   display: inline-block;
-  margin: 75px;
+	padding: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+
 }
